@@ -32,10 +32,12 @@ function checkAge() {
         result.innerHTML = `Your age: ${age}<br><br> You are a Child`;
     }
 
+    // handles the condition for Teenager age range
     else if ( 13 <= age && age <= 19){
         result.innerHTML = `Your age: ${age}<br><br> You are a Teenager`;
     }
 
+    // handles if the age is 20 or above
     else if ( age >= 20){
         result.innerHTML = `Your age: ${age}<br><br> You are an Adult`;
     }
