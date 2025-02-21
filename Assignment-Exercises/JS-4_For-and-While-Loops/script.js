@@ -42,6 +42,8 @@ while (hobbies.length != index) {
 
 
 
+
+
 // sample code
 // // scripts.js
 
